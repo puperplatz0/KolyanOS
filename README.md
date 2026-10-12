@@ -25,12 +25,12 @@
 
 | | |
 |---|---|
-| **Готов к играм** | Steam, Wine, Gamemode, MangoHud — из коробки |
+| **Готов к играм** | Steam, Wine, Gamemode, MangoHud из коробки |
 | **Лёгкий** | Xfce + минимум фоновых процессов |
 | **Быстрый** | Загрузка прямо в рабочий стол, без логинов |
-| **AUR из коробки** | `yay` предустановлен, ставь что угодно |
+| **AUR из коробки** | `yay` предустановлен |
 | **Swap на изи** | Скрипт создания swap-файла одной командой |
-| **Красивый** | Собственный брендинг, тёмная тема, обоями от KolyanOS |
+| **Красивый** | Собственный брендинг, тёмная тема |
 
 ---
 
@@ -40,27 +40,13 @@
 - Xfce 4 + Xfce Goodies
 - LightDM + GTK Greeter
 
-**Гейминг**
-- Steam
-- Wine + Winetricks
-- Gamemode (lib32 тоже)
-- MangoHud (lib32 тоже)
-- Vulkan: AMD, Intel (lib32 тоже)
-- Mesa (lib32 тоже)
-
-**Инструменты**
+****
 - Firefox
 - Konsole
 - Dolphin
 - Ark
 - btop
 - yay (AUR-хелпер)
-
-**Драйверы**
-- xf86-video-amdgpu
-- xf86-video-intel
-- xf86-video-nouveau
-- linux-firmware + amd/intel microcode
 
 ---
 
@@ -76,16 +62,10 @@ ISO разбит на части (ограничение GitHub в 2 ГБ на �
 
 1. Скачай **все части** `.part_*` и `merge.bat`
 2. Положи всё в одну папку
-3. Запусти `merge.bat` двойным кликом
-4. Получишь `KolyanOS-0.0.2.iso`
-5. Запиши его на флешку (8 ГБ+) через [balenaEtcher](https://etcher.balena.io/)
-6. Загрузись с флешки
+3. Запусти `merge.bat`
+4. Получишь `KolyanOS-версия_сборки.iso`
 
 ### Linux
 
 ```bash
-# Склеиваем части
-cat KolyanOS-0.0.2.iso.part_* > KolyanOS-0.0.2.iso
-
-# Записываем на флешку (замени /dev/sdX на свою!)
-sudo dd if=KolyanOS-0.0.2.iso of=/dev/sdX bs=4M status=progress oflag=sync
+cat KolyanOS-версия_сборки.iso.part_* > KolyanOS-версия_сборки.iso
