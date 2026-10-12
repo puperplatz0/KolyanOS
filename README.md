@@ -40,7 +40,7 @@
 - Xfce 4 + Xfce Goodies
 - LightDM + GTK Greeter
 
-****
+**Програмки**
 - Firefox
 - Konsole
 - Dolphin
@@ -49,14 +49,6 @@
 - yay (AUR-хелпер)
 
 ---
-
-## Установка
-
-### Скачать
-
-Последний релиз: [**Releases**](https://github.com/puperplatz0/KolyanOS/releases)
-
-ISO разбит на части (ограничение GitHub в 2 ГБ на файл).
 
 ### Windows
 
