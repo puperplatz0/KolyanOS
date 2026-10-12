@@ -5,9 +5,7 @@
 **Лёгкий геймерский дистрибутив на базе Arch Linux**
 
 [![Arch Linux](https://img.shields.io/badge/base-Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](https://archlinux.org)
-[![Version](https://img.shields.io/badge/version-0.0.2-purple?style=for-the-badge)](https://github.com/puperplatz0/KolyanOS/releases)
-[![Status](https://img.shields.io/badge/status-UNSTABLE-red?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/license-GPL-green?style=for-the-badge)](LICENSE)
 
 [Скачать](https://github.com/puperplatz0/KolyanOS/releases) · [Баги](https://github.com/puperplatz0/KolyanOS/issues) · [Обсуждения](https://github.com/puperplatz0/KolyanOS/discussions)
 
