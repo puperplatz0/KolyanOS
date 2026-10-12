@@ -50,6 +50,8 @@
 
 ---
 
+## Устновка
+
 ### Windows
 
 1. Скачай **все части** `.part_*` и `merge.bat`
@@ -61,3 +63,4 @@
 
 ```bash
 cat KolyanOS-версия_сборки.iso.part_* > KolyanOS-версия_сборки.iso
+```
